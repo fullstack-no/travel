@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  mongo-server:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 123
+      MONGO_INITDB_DATABASE: travel
+
+    ports:
+      - 27017:27017
+    networks:
+      - travel-net
+    volumes:
+      - ./storage/mongo_data:/data/db
+
+networks:
+  travel-net:

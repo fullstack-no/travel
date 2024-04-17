@@ -1,0 +1,33 @@
+db.tours.find()
+db.tours.insertMany([ { id: "1xx", img: "static/imgs/tour-img01.jpg", price: 20, name: "Westminister bridge", star: 4, location: "England", distance: 200, description: "this is description" }, { id: "2xx", img: "static/imgs/tour-img02.jpg", price: 20, name: "Bali", star: 2, location: "Thailand", distance: 250, description: "this is description" }, { id: "3xx", img: "static/imgs/tour-img03.jpg", price: 24, name: "Chiang Mai", star: 0, location: "Thailand", distance: 150, description: "this is description" }, { id: "4xx", img: "static/imgs/tour-img03.jpg", price: 20, name: "Phuket", star: 5, location: "thailand", distance: 200, description: "this is description" }, { id: "5xx", img: "static/imgs/tour-img04.jpg", price: 20, name: "sapa", star: 1, location: "viet nam", distance: 220, description: "this is description" }, { id: "6xx", img: "static/imgs/tour-img05.jpg", price: 20, name: "ha long bay", star: 3, location: "viet nam", distance: 350, description: "this is description" }, { id: "7xx", img: "static/imgs/tour-img06.jpg", price: 20, name: "Sunrise, Thailand", star: 4, location: "Phuket", distance: 100, description: "this is description" }, { id: "8xx", img: "static/imgs/tour-img07.jpg", price: 20, name: "ha noi", star: 4, location: "viet nam", distance: 400, description: "this is description" }, { id: "9xx", img: "static/imgs/tour-img02.jpg", price: 20, name: "Gili Islands", star: 4, location: "indonesia", distance: 500, description: "this is description" }, { id: "10xx", img: "static/imgs/tour-img05.jpg", price: 20, name: "Maluk Beach", star: 4, location: "indonesia", distance: 200, description: "this is description" }])
+db.tours.find()
+db.tours.deleteMany({})
+db.tours.deleteMany()
+db.tours.find()
+use travel
+    },
+      description: "this is description",
+      distance: 250,
+      location: "Thailand",
+      star: 2,
+      name: "Bali",
+      price: 20,
+      img: "static/imgs/tour-img02.jpg",
+      id: "2xx",
+    {
+    },
+      description: "this is description",
+      distance: 200,
+      location: "England",
+      star: 4,
+      name: "Westminister bridge",
+      price: 20,
+      img: "static/imgs/tour-img01.jpg",
+      id: "1xx",
+    {
+db.tours.insertMany([
+db.tours.find()
+db.tours.deleteMany({})
+db.tours.deleteMany()
+db.tours.find()
+use travel
